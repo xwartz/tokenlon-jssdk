@@ -1,0 +1,10 @@
+import { PlaceOrderParams, PlaceOrderResult, GetOrdersHistoryParams, GetOrderStateResult } from './interface';
+import { TokenlonConfig } from '../../global';
+import { TokenlonToken } from '../../global';
+export declare const getTradeTokenList: () => Promise<TokenlonToken[]>;
+export declare const getSdkJwtToken: () => Promise<string>;
+export declare const getMobileAppConfig: () => Promise<TokenlonConfig>;
+export declare const placeOrder: (params: PlaceOrderParams) => Promise<PlaceOrderResult>;
+export declare const getOrderState: (executeTxHash: string) => Promise<GetOrderStateResult>;
+export declare const getOrdersHistory: (params: GetOrdersHistoryParams) => Promise<any>;
+export declare const getMarketPrice: (symbol: any) => Promise<any>;

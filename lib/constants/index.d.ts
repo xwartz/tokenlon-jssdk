@@ -1,0 +1,11 @@
+export declare const ETH_GAS_STATION_URL = "https://biz.token.im/api/ethgas";
+export declare const ETH_ADDRESS: string;
+export declare const APPROVE_METHOD = "approve(address,uint256)";
+export declare const APPROVE_GAS = 100000;
+export declare const TOKENLON_FILLORDER_GAS = 800000;
+export declare const HEX_OF_BALANCE_OF = "70a08231";
+export declare const HEX_OF_GET_ALLOWANCE = "dd62ed3e";
+export declare const REQUEST_TIMEOUT = 10000;
+export declare const MAX_WEBSOCKET_RECONNECT_TRIED_TIMES = 100;
+export declare const WEBSOCKET_TRY_CONNECT_INTERVAL = 1000;
+export declare const CACHE_DATA_SECONDS: number;
